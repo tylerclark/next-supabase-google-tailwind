@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { createClient } from "@/utils/supabase/server";
+import { redirect } from "next/navigation";
+import SignInButton from "./sign-in-button";
 
 export default async function AuthButton() {
   const supabase = await createClient();
@@ -17,10 +19,7 @@ export default async function AuthButton() {
       <>
         <div className="flex gap-4 items-center">
           <div>
-            <Badge
-              variant={"default"}
-              className="font-normal pointer-events-none"
-            >
+            <Badge variant={"default"} className="font-normal pointer-events-none">
               Please update .env.local file with anon key and url
             </Badge>
           </div>
@@ -59,6 +58,7 @@ export default async function AuthButton() {
     </div>
   ) : (
     <div className="flex gap-2">
+      <SignInButton />
       <Button asChild size="sm" variant={"outline"}>
         <Link href="/sign-in">Sign in</Link>
       </Button>
