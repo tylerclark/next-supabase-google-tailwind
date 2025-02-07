@@ -6,6 +6,7 @@ import { Button } from "./ui/button";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
 import SignInButton from "./sign-in-button";
+import Image from "next/image";
 
 export default async function AuthButton() {
   const supabase = await createClient();
@@ -49,7 +50,8 @@ export default async function AuthButton() {
   }
   return user ? (
     <div className="flex items-center gap-4">
-      Hey, {user.email}!
+      <Image src={user.user_metadata.avatar_url} alt="" width={32} height={32} className="rounded-full object-cover" />
+      {user.email}
       <form action={signOutAction}>
         <Button type="submit" variant={"outline"}>
           Sign out
