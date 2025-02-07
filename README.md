@@ -8,7 +8,7 @@ This is a fork of https://github.com/vercel/next.js/tree/canary/examples/with-su
 I created this project by running:
 
 ```bash
-npx create-next-app clarkyyy -e with-supabase --tailwind --eslint --app --use-npm --ts
+npx create-next-app -e with-supabase --tailwind --eslint --app --use-npm --ts
 ```
 
 Then I updated some outdated packages (minus Tailwind):
