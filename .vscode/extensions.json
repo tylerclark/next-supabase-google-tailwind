@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+    "supabase.vscode-supabase-extension",
+    "steoates.autoimport",
+    "dbaeumer.vscode-eslint",
+    "postman.postman-for-vscode"
+  ]
+}
