@@ -1,8 +1,8 @@
-# Next 15 + Supabase + Google Auth + Tailwind 4
+# Next 15 + Supabase + Google Auth + Tailwind 4 Boilerplate Starter
 
 This is a fork of https://github.com/vercel/next.js/tree/canary/examples/with-supabase with added:
 
-- Sign-in with Google capability
+- Sign-in with Google capability (turn on in Supabase, sign-up in Google Cloud console)
 - Tailwind v4
 
 Setup a Supabase project by going to: [database.new](https://database.new)
@@ -24,6 +24,8 @@ Then I upgraded Tailwind to v4:
 ```bash
 npx @tailwindcss/upgrade@next
 ```
+
+I simplified the UI and made the navigation easier.
 
 Finally, I added some code for signing in with Google authentication. You can easily add other providers.
 
