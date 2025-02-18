@@ -1,0 +1,22 @@
+---
+description: Tech Stack
+globs: 
+---
+# Tech Stack
+- Next.js 15
+- Tailwind CSS 4
+- TypeScript
+- Supabase for authentication and database
+
+# Project Structure
+- [server.ts](mdc:utils/supabase/server.ts) - server side supabase client
+- [client.ts](mdc:utils/supabase/client.ts) - client side supabase client
+- [middleware.ts](mdc:middleware.ts) - supabase middleware
+
+
+
+
+
+
+
+
