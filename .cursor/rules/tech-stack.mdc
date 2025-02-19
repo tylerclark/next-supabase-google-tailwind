@@ -12,7 +12,12 @@ globs:
 - [server.ts](mdc:utils/supabase/server.ts) - server side supabase client
 - [client.ts](mdc:utils/supabase/client.ts) - client side supabase client
 - [middleware.ts](mdc:middleware.ts) - supabase middleware
+- [route.ts](mdc:app/api/chat/route.ts) - Backend function for AI chat
+- [page.tsx](mdc:app/chat/page.tsx) - Frontend for AI chat
+- [Navigation.tsx](mdc:components/Navigation.tsx) - Top navigation
 
+# Rules
+- Always put components in the /components folder, not /app/components
 
 
 
