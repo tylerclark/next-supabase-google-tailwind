@@ -16,7 +16,7 @@
     "ai": "^4.1.41",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.477.0",
+    "lucide-react": "^0.479.0",
     "next": "latest",
     "next-themes": "^0.4.3",
     "prettier": "^3.5.1",
