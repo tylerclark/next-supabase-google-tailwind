@@ -1,5 +1,8 @@
 # Next 15 + Supabase + Google Auth + Tailwind 4 Boilerplate Starter
 
+![74shots_so](https://github.com/user-attachments/assets/8b0f2489-1317-4a00-a9cb-8c927efe19e7)
+
+
 This is a fork of https://github.com/vercel/next.js/tree/canary/examples/with-supabase with added:
 
 - Sign-in with Google capability (turn on in Supabase, sign-up in Google Cloud console)
