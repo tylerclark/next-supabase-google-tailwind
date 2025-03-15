@@ -18,6 +18,10 @@ This is a fork of https://github.com/vercel/next.js/tree/canary/examples/with-su
 3. Update the environment variables in `.env.local` with your values
 4. Run `npm i`
 5. Run `npm run dev`
+6. Remove the GitHub remote so you can use your own repository:
+   ```bash
+   git remote remove origin
+   ```
 
 ---
 
